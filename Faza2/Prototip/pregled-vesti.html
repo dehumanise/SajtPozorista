@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sajt Pozorišta">
+    <meta name="author" content="Nikola Đoković">
+
+    <title>Sajt Pozorišta</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/sajtpozorista.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Sajt Pozorišta</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="admin-menu.html">Admin menu</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dodaj<span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="dodaj-pozoriste.html">Dodaj pozorište</a></li>
+                        <li class="divider"></li>
+                        <li><a href="dodaj-vest.html">Dodaj vest</a></li>
+                        <li class="divider"></li>
+                        <li><a href="dodaj-predstavu.html">Dodaj predstavu</a></li>
+                        <li class="divider"></li>
+                        <li><a href="dodaj-kritiku.html">Dodaj kritiku</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="pozorista.html">Pozorišta</a>
+                    </li>
+                    <li><a href="vesti.html">Vesti</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                    <li><a href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+	<hr>
+	
+	<div class = "container" >
+	
+		<div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Vest</h1>
+            </div>
+
+    </div>
+		<div class="row">
+
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-lg btn-danger">Obriši</button>
+                <a href="izmeni-vest.html"><button type="button" class="btn btn-lg btn-success">Izmeni</button></a>
+            </div>
+
+    </div>
+    <br>
+
+		<div class="row">
+					<div class="col-md-6 portfolio-item">
+						<a href="#">
+							<img class="" src="../img/750x450.gif">
+						</a>
+					</div>
+			
+					<div class="img-responsive pull-right">
+						<img class="img-responsive" src="../img/200x500.gif">
+					</div>
+						
+					
+			</div>
+      <br>
+			<div class="row">
+			
+				<div class="col-md-8 text-justify">
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi
+					
+				</div>
+			
+					<div class="img-responsive pull-right">
+						<img class="img-responsive" src="../img/200x300.gif">
+					</div>
+			</div>
+
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Team &copy; PLAN 2015</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+	
+	</div>
+	<!-- Container -->
+	
+	 <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
