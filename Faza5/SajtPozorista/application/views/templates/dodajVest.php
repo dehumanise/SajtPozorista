@@ -15,7 +15,13 @@
 
             <?php echo validation_errors(); ?>
 
-            <?php echo form_open('vesti/dodajVest') ?>
+            <?php
+            if (isset($error)) {
+                echo "<div>$error</div>";
+            }
+            ?>
+
+            <?php echo form_open_multipart('vesti/dodajVest') ?>
             <div class="form-group">
                 <label for="naslov">Naslov <font color="red"> * </font></label>
                 <input type="text" id="naslov" name="naslov" value="<?php echo set_value('naslov'); ?>" class="form-control">

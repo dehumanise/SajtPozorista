@@ -26,7 +26,7 @@
             }
             echo '<div class="col-md-3 portfolio-item">';
             echo '<a href="' . route_url('vesti/vest/') . $vesti[$i]['VestID'] . '">';
-            echo '<img class="img-responsive" src="' . asset_url('img/750x450.gif') . '">';
+            echo '<img class="img-responsive" src="' . display_image('vesti',$vesti[$i]['Slika'],'750x450.gif') . '">';
             echo '<h3>' . $vesti[$i]['Naslov'] . '</h3>';
             echo '</a>';
             echo '</div>';

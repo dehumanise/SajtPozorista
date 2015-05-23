@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <a href="#">
-                    <img class="" src="<?php echo asset_url('img/750x450.gif') ?>">
+                    <img class="img-responsive" src="<?php echo display_image('vesti',$vest['Slika'],'750x450.gif')?>">
                 </a>
             </div>
 
